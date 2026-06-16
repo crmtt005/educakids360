@@ -6,20 +6,20 @@ const steps = [
   {
     number: "1",
     icon: ListChecks,
-    title: "Escolha a Atividade",
-    description: "Acesse o material e escolha uma atividade adequada para a idade e momento do seu filho."
+    title: "Elige la Actividad",
+    description: "Accede al material y elige una actividad adecuada para la edad y el momento de tu hijo."
   },
   {
     number: "2",
     icon: Play,
-    title: "Aplique por 15 Minutos",
-    description: "Sente-se com seu filho e realize a atividade de forma leve e divertida, sem pressão."
+    title: "Aplícala por 15 Minutos",
+    description: "Siéntate con tu hijo y realiza la actividad de forma ligera y divertida, sin presión."
   },
   {
     number: "3",
     icon: RefreshCw,
-    title: "Repetição Progressiva",
-    description: "Siga o cronograma estruturado para consolidar o aprendizado com repetição inteligente."
+    title: "Repetición Progresiva",
+    description: "Sigue el cronograma estructurado para consolidar el aprendizaje con repetición inteligente."
   }
 ]
 
@@ -33,10 +33,10 @@ export function HowItWorksSection() {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-10 md:mb-14">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            Como Funciona na Prática?
+            ¿Cómo Funciona en la Práctica?
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Simples, rápido e eficaz. Você não precisa ser especialista para aplicar.
+            Simple, rápido y eficaz. No necesitas ser especialista para aplicarlo.
           </p>
         </div>
 
@@ -62,7 +62,7 @@ export function HowItWorksSection() {
             onClick={scrollToOffer}
             className="animate-pulse-cta bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-4 px-8 rounded-xl text-lg shadow-lg transition-all"
           >
-            QUERO COMEÇAR HOJE
+            QUIERO EMPEZAR HOY
           </button>
         </div>
       </div>

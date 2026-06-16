@@ -1,20 +1,20 @@
 import { CheckCircle, Gift, Shield, Zap } from "lucide-react"
 
 const basicInclusions = [
-  "+200 Atividades Estruturadas",
-  "Material para 2-10 anos",
+  "+200 Actividades Estructuradas",
+  "Material para 2-10 años",
   "Formato Digital (PDF)",
-  "Atualizações Vitalícias",
-  "Suporte por E-mail"
+  "Actualizaciones de por Vida",
+  "Soporte por Correo Electrónico"
 ]
 
 const completeInclusions = [
   ...basicInclusions,
-  "Planner de Rotina Infantil",
-  "Guia de Disciplina Positiva",
-  "Cronograma por Idade",
-  "Acesso ao Grupo Exclusivo",
-  "Bônus Futuros Gratuitos"
+  "Planificador de Rutina Infantil",
+  "Guía de Disciplina Positiva",
+  "Cronograma por Edad",
+  "Acceso al Grupo Exclusivo",
+  "Bonos Futuros Gratuitos"
 ]
 
 export function OfferSection() {
@@ -24,13 +24,13 @@ export function OfferSection() {
         <div className="text-center mb-10 md:mb-14">
           <div className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold mb-4">
             <Zap className="w-4 h-4" />
-            <span>OFERTA POR TEMPO LIMITADO</span>
+            <span>OFERTA POR TIEMPO LIMITADO</span>
           </div>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            Escolha Seu Pacote
+            Elige Tu Paquete
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Comece a transformar o desenvolvimento do seu filho hoje mesmo
+            Empieza a transformar el desarrollo de tu hijo hoy mismo
           </p>
         </div>
 
@@ -38,8 +38,8 @@ export function OfferSection() {
           {/* Pacote Básico */}
           <div className="bg-card border border-border rounded-2xl p-6 md:p-8 flex flex-col">
             <div className="text-center mb-6">
-              <h3 className="text-xl font-bold text-foreground mb-2">Pacote Essencial</h3>
-              <p className="text-muted-foreground text-sm">Para quem quer começar agora</p>
+              <h3 className="text-xl font-bold text-foreground mb-2">Paquete Esencial</h3>
+              <p className="text-muted-foreground text-sm">Para quien quiere empezar ahora</p>
             </div>
 
             <ul className="space-y-3 mb-6 flex-1">
@@ -52,11 +52,11 @@ export function OfferSection() {
             </ul>
 
             <div className="text-center mb-6">
-              <p className="text-muted-foreground line-through text-sm">De R$ 97,00</p>
+              <p className="text-muted-foreground line-through text-sm">Antes R$ 97,00</p>
               <p className="text-4xl font-extrabold text-foreground">
                 R$ 27<span className="text-2xl">,90</span>
               </p>
-              <p className="text-muted-foreground text-sm">pagamento único</p>
+              <p className="text-muted-foreground text-sm">pago único</p>
             </div>
 
             <a
@@ -65,7 +65,7 @@ export function OfferSection() {
               rel="noopener noreferrer"
               className="animate-pulse-cta block w-full bg-foreground hover:bg-foreground/90 text-background font-bold py-4 px-6 rounded-xl text-center text-lg shadow-lg transition-all"
             >
-              QUERO O ESSENCIAL
+              QUIERO EL ESENCIAL
             </a>
           </div>
 
@@ -73,12 +73,12 @@ export function OfferSection() {
           <div className="bg-card border-2 border-primary rounded-2xl p-6 md:p-8 flex flex-col relative">
             <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-accent text-accent-foreground px-4 py-1 rounded-full text-sm font-bold flex items-center gap-2">
               <Gift className="w-4 h-4" />
-              MAIS VENDIDO
+              MÁS VENDIDO
             </div>
 
             <div className="text-center mb-6">
-              <h3 className="text-xl font-bold text-foreground mb-2">Pacote Completo</h3>
-              <p className="text-muted-foreground text-sm">Com todos os bônus exclusivos</p>
+              <h3 className="text-xl font-bold text-foreground mb-2">Paquete Completo</h3>
+              <p className="text-muted-foreground text-sm">Con todos los bonos exclusivos</p>
             </div>
 
             <ul className="space-y-3 mb-6 flex-1">
@@ -91,11 +91,11 @@ export function OfferSection() {
             </ul>
 
             <div className="text-center mb-6">
-              <p className="text-muted-foreground line-through text-sm">De R$ 197,00</p>
+              <p className="text-muted-foreground line-through text-sm">Antes R$ 197,00</p>
               <p className="text-4xl font-extrabold text-primary">
                 R$ 37<span className="text-2xl">,90</span>
               </p>
-              <p className="text-muted-foreground text-sm">pagamento único</p>
+              <p className="text-muted-foreground text-sm">pago único</p>
             </div>
 
             <a
@@ -104,7 +104,7 @@ export function OfferSection() {
               rel="noopener noreferrer"
               className="animate-pulse-cta block w-full bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-4 px-6 rounded-xl text-center text-lg shadow-lg transition-all"
             >
-              QUERO O COMPLETO
+              QUIERO EL COMPLETO
             </a>
 
             <div className="flex items-center justify-center gap-2 mt-4 text-sm text-muted-foreground">
@@ -116,7 +116,7 @@ export function OfferSection() {
 
         <div className="mt-8 text-center">
           <p className="text-muted-foreground text-sm">
-            Aceitamos PIX e Cartão de Crédito
+            Aceptamos PIX y Tarjeta de Crédito
           </p>
         </div>
       </div>

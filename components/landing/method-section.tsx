@@ -4,23 +4,23 @@ import { Sparkles, Brain, Zap, Clock } from "lucide-react"
 const methodPoints = [
   {
     icon: Brain,
-    title: "Neuroplasticidade",
-    description: "Aproveita a capacidade natural do cérebro infantil de formar novas conexões neurais."
+    title: "Neuroplasticidad",
+    description: "Aprovecha la capacidad natural del cerebro infantil de formar nuevas conexiones neuronales."
   },
   {
     icon: Zap,
-    title: "Micro Estímulos Diários",
-    description: "Atividades curtas e frequentes são mais eficazes que sessões longas e cansativas."
+    title: "Microestímulos Diarios",
+    description: "Las actividades cortas y frecuentes son más eficaces que las sesiones largas y agotadoras."
   },
   {
     icon: Sparkles,
-    title: "Estímulo Multissensorial",
-    description: "Engaja visão, audição e tato para um aprendizado completo e duradouro."
+    title: "Estímulo Multisensorial",
+    description: "Involucra la vista, el oído y el tacto para un aprendizaje completo y duradero."
   },
   {
     icon: Clock,
-    title: "Apenas 15 Minutos",
-    description: "Tempo ideal para manter a atenção da criança sem causar frustração ou cansaço."
+    title: "Solo 15 Minutos",
+    description: "Tiempo ideal para mantener la atención del niño sin causar frustración ni cansancio."
   }
 ]
 
@@ -33,10 +33,10 @@ export function MethodSection() {
             MÉTODO EXCLUSIVO
           </span>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            Conheça o Método Desenvolvimento 360°
+            Conoce el Método Desarrollo 360°
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Um sistema completo baseado em neurociência infantil, desenvolvido para estimular todas as áreas do desenvolvimento cognitivo do seu filho.
+            Un sistema completo basado en neurociencia infantil, desarrollado para estimular todas las áreas del desarrollo cognitivo de tu hijo.
           </p>
         </div>
 
@@ -44,7 +44,7 @@ export function MethodSection() {
           <div className="flex-1 w-full max-w-lg lg:max-w-none">
             <Image
               src="/images/product-mockup.jpg"
-              alt="Materiais do Método Desenvolvimento 360°"
+              alt="Materiales del Método Desarrollo 360°"
               width={500}
               height={400}
               className="rounded-2xl shadow-xl w-full h-auto"
@@ -68,10 +68,10 @@ export function MethodSection() {
 
         <div className="mt-12 bg-primary/5 rounded-2xl p-6 md:p-8 text-center">
           <h3 className="text-xl md:text-2xl font-bold text-foreground mb-3">
-            Por que é diferente da escola tradicional?
+            ¿Por qué es diferente de la escuela tradicional?
           </h3>
           <p className="text-muted-foreground max-w-3xl mx-auto">
-            Enquanto a escola foca em conteúdo, o Método 360° foca no desenvolvimento das habilidades cognitivas que permitem a criança aprender qualquer coisa. É como fortalecer o motor antes de acelerar o carro.
+            Mientras la escuela se enfoca en el contenido, el Método 360° se enfoca en el desarrollo de las habilidades cognitivas que le permiten al niño aprender cualquier cosa. Es como fortalecer el motor antes de acelerar el auto.
           </p>
         </div>
       </div>

@@ -4,22 +4,22 @@ import { X, Check } from "lucide-react"
 
 const alternatives = [
   {
-    name: "Reforço Escolar",
-    price: "R$ 200-400/mês",
+    name: "Refuerzo Escolar",
+    price: "R$ 200-400/mes",
     monthly: true
   },
   {
     name: "Psicopedagogo",
-    price: "R$ 150-300/sessão",
+    price: "R$ 150-300/sesión",
     monthly: true
   },
   {
-    name: "Escola Particular",
-    price: "R$ 800-2.000/mês",
+    name: "Escuela Privada",
+    price: "R$ 800-2.000/mes",
     monthly: true
   },
   {
-    name: "Cursos de Estimulação",
+    name: "Cursos de Estimulación",
     price: "R$ 500-1.500",
     monthly: false
   }
@@ -35,10 +35,10 @@ export function CostComparisonSection() {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-10 md:mb-14">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            Quanto Custa Não Agir Agora?
+            ¿Cuánto Cuesta No Actuar Ahora?
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Compare o investimento do Educakids360 com outras alternativas
+            Compara la inversión de Educakids360 con otras alternativas
           </p>
         </div>
 
@@ -60,7 +60,7 @@ export function CostComparisonSection() {
                 <div className="text-right">
                   <span className="text-destructive font-bold">{item.price}</span>
                   {item.monthly && (
-                    <span className="text-muted-foreground text-sm block">mensal</span>
+                    <span className="text-muted-foreground text-sm block">mensual</span>
                   )}
                 </div>
               </div>
@@ -75,12 +75,12 @@ export function CostComparisonSection() {
                 </div>
                 <div>
                   <span className="text-foreground font-bold text-lg">Educakids360</span>
-                  <span className="text-muted-foreground block text-sm">Acesso vitalício</span>
+                  <span className="text-muted-foreground block text-sm">Acceso de por vida</span>
                 </div>
               </div>
               <div className="text-right">
-                <span className="text-primary font-bold text-2xl">A partir de R$ 27,90</span>
-                <span className="text-muted-foreground block text-sm">pagamento único</span>
+                <span className="text-primary font-bold text-2xl">Desde R$ 27,90</span>
+                <span className="text-muted-foreground block text-sm">pago único</span>
               </div>
             </div>
           </div>
@@ -90,7 +90,7 @@ export function CostComparisonSection() {
               onClick={scrollToOffer}
               className="animate-pulse-cta bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-4 px-8 rounded-xl text-lg shadow-lg transition-all"
             >
-              QUERO APROVEITAR AGORA
+              QUIERO APROVECHARLO AHORA
             </button>
           </div>
         </div>

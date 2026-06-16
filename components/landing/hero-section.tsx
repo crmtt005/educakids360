@@ -15,30 +15,30 @@ export function HeroSection() {
           <div className="flex-1 text-center lg:text-left">
             <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
               <Star className="w-4 h-4 fill-current" />
-              <span>4.9/5 avaliações de mães satisfeitas</span>
+              <span>4.9/5 valoraciones de madres satisfechas</span>
             </div>
 
             <h1 className="text-3xl md:text-4xl lg:text-5xl font-extrabold text-foreground leading-tight mb-4 text-balance">
-              Seu Filho Vai Desenvolver Foco, Concentração e Estar Preparado Para a Escola em Apenas{" "}
-              <span className="text-primary">15 Minutos Por Dia</span>
+              Tu Hijo Desarrollará Enfoque, Concentración y Estará Preparado Para la Escuela en Solo{" "}
+              <span className="text-primary">15 Minutos al Día</span>
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-6 text-pretty">
-              O Método Desenvolvimento 360° que já ajudou mais de 2.000 famílias a transformar o potencial cognitivo dos seus filhos sem depender de telas ou aulas caras.
+              El Método Desarrollo 360° que ya ayudó a más de 2.000 familias a transformar el potencial cognitivo de sus hijos sin depender de pantallas ni clases caras.
             </p>
 
             <ul className="space-y-3 mb-6 text-left max-w-md mx-auto lg:mx-0">
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-foreground">Atividades práticas que desenvolvem foco e atenção</span>
+                <span className="text-foreground">Actividades prácticas que desarrollan el enfoque y la atención</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-foreground">Método baseado em neurociência infantil</span>
+                <span className="text-foreground">Método basado en neurociencia infantil</span>
               </li>
               <li className="flex items-start gap-3">
                 <CheckCircle className="w-5 h-5 text-primary mt-0.5 flex-shrink-0" />
-                <span className="text-foreground">Resultados visíveis em poucas semanas</span>
+                <span className="text-foreground">Resultados visibles en pocas semanas</span>
               </li>
             </ul>
 
@@ -47,13 +47,13 @@ export function HeroSection() {
                 onClick={scrollToOffer}
                 className="animate-pulse-cta w-full sm:w-auto bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-4 px-8 rounded-xl text-lg shadow-lg transition-all"
               >
-                QUERO COMEÇAR AGORA
+                QUIERO EMPEZAR AHORA
               </button>
             </div>
 
             <div className="flex items-center justify-center lg:justify-start gap-2 text-sm text-muted-foreground">
               <Users className="w-4 h-4" />
-              <span>+2.000 famílias já transformaram seus filhos</span>
+              <span>+2.000 familias ya transformaron a sus hijos</span>
             </div>
           </div>
 
@@ -61,7 +61,7 @@ export function HeroSection() {
             <div className="relative">
               <Image
                 src="/images/hero-mom-child.jpg"
-                alt="Mãe e filho estudando juntos com atividades educativas"
+                alt="Madre e hijo estudiando juntos con actividades educativas"
                 width={600}
                 height={500}
                 className="rounded-2xl shadow-2xl w-full h-auto"
@@ -76,7 +76,7 @@ export function HeroSection() {
                   </div>
                   <span className="font-bold text-foreground">4.9/5</span>
                 </div>
-                <p className="text-sm text-muted-foreground">+500 avaliações</p>
+                <p className="text-sm text-muted-foreground">+500 valoraciones</p>
               </div>
             </div>
           </div>

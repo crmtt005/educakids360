@@ -5,23 +5,23 @@ import { TrendingDown, BookX, Frown, Monitor } from "lucide-react"
 const consequences = [
   {
     icon: Frown,
-    title: "Baixa autoestima",
-    description: "Crianças sem estímulo adequado podem desenvolver insegurança e dificuldade de socialização."
+    title: "Baja autoestima",
+    description: "Los niños sin el estímulo adecuado pueden desarrollar inseguridad y dificultad para socializar."
   },
   {
     icon: BookX,
-    title: "Dificuldade na alfabetização",
-    description: "Sem preparação cognitiva, a alfabetização se torna um processo frustrante e demorado."
+    title: "Dificultad en la alfabetización",
+    description: "Sin preparación cognitiva, la alfabetización se convierte en un proceso frustrante y lento."
   },
   {
     icon: TrendingDown,
-    title: "Atraso escolar",
-    description: "O que poderia ser prevenido cedo se transforma em anos de recuperação e reforço."
+    title: "Retraso escolar",
+    description: "Lo que podría prevenirse a tiempo se convierte en años de recuperación y refuerzo."
   },
   {
     icon: Monitor,
-    title: "Dependência de telas",
-    description: "Quanto mais tempo passa, mais difícil fica substituir as telas por atividades produtivas."
+    title: "Dependencia de las pantallas",
+    description: "Cuanto más tiempo pasa, más difícil es sustituir las pantallas por actividades productivas."
   }
 ]
 
@@ -35,10 +35,10 @@ export function AgitationSection() {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-10 md:mb-14">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            O que acontece quando não agimos a tempo?
+            ¿Qué pasa cuando no actuamos a tiempo?
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            A falta de estímulo cognitivo na primeira infância pode ter consequências duradouras...
+            La falta de estímulo cognitivo en la primera infancia puede tener consecuencias duraderas...
           </p>
         </div>
 
@@ -61,13 +61,13 @@ export function AgitationSection() {
 
         <div className="text-center">
           <p className="text-lg text-foreground font-medium mb-6 max-w-2xl mx-auto">
-            Mas a boa notícia é que você pode mudar essa realidade hoje, de forma simples e acessível.
+            Pero la buena noticia es que puedes cambiar esa realidad hoy, de forma simple y accesible.
           </p>
           <button
             onClick={scrollToOffer}
             className="animate-pulse-cta bg-primary hover:bg-primary/90 text-primary-foreground font-bold py-4 px-8 rounded-xl text-lg shadow-lg transition-all"
           >
-            QUERO TRANSFORMAR MEU FILHO
+            QUIERO TRANSFORMAR A MI HIJO
           </button>
         </div>
       </div>

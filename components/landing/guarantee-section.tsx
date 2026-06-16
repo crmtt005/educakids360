@@ -10,30 +10,30 @@ export function GuaranteeSection() {
           </div>
 
           <h2 className="text-2xl md:text-3xl font-bold text-foreground mb-4">
-            Garantia Incondicional de 7 Dias
+            Garantía Incondicional de 7 Días
           </h2>
 
           <p className="text-muted-foreground text-lg mb-6 max-w-2xl mx-auto">
-            Você tem 7 dias para testar o método com seu filho. Se por qualquer motivo você não ficar satisfeita, basta enviar um e-mail e devolvemos 100% do seu investimento.
+            Tienes 7 días para probar el método con tu hijo. Si por cualquier motivo no quedas satisfecha, solo tienes que enviar un correo y te devolvemos el 100% de tu inversión.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 sm:gap-8">
             <div className="flex items-center gap-2">
               <CheckCircle className="w-5 h-5 text-primary" />
-              <span className="text-foreground font-medium">Sem perguntas</span>
+              <span className="text-foreground font-medium">Sin preguntas</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle className="w-5 h-5 text-primary" />
-              <span className="text-foreground font-medium">Sem burocracia</span>
+              <span className="text-foreground font-medium">Sin trámites</span>
             </div>
             <div className="flex items-center gap-2">
               <CheckCircle className="w-5 h-5 text-primary" />
-              <span className="text-foreground font-medium">Risco zero</span>
+              <span className="text-foreground font-medium">Riesgo cero</span>
             </div>
           </div>
 
           <p className="mt-6 text-primary font-bold text-lg">
-            O risco é todo nosso. A transformação é toda sua.
+            El riesgo es todo nuestro. La transformación es toda tuya.
           </p>
         </div>
       </div>

@@ -4,13 +4,13 @@ export function Footer() {
       <div className="container mx-auto px-4 max-w-6xl text-center">
         <p className="text-background font-bold text-lg mb-2">Educakids360</p>
         <p className="text-background/70 text-sm mb-4">
-          Transformando o desenvolvimento infantil, uma família por vez.
+          Transformando el desarrollo infantil, una familia a la vez.
         </p>
         <p className="text-background/50 text-xs max-w-2xl mx-auto">
-          Este produto não garante a obtenção de resultados. Qualquer referência a desempenho é apenas ilustrativa. Os resultados podem variar de acordo com o comprometimento individual.
+          Este producto no garantiza la obtención de resultados. Cualquier referencia al desempeño es solo ilustrativa. Los resultados pueden variar según el compromiso individual.
         </p>
         <p className="text-background/50 text-xs mt-4">
-          © {new Date().getFullYear()} Educakids360. Todos os direitos reservados.
+          © {new Date().getFullYear()} Educakids360. Todos los derechos reservados.
         </p>
       </div>
     </footer>

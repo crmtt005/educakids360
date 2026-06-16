@@ -4,27 +4,27 @@ import { Star, Quote } from "lucide-react"
 const testimonials = [
   {
     name: "Ana Carolina",
-    location: "São Paulo, SP",
+    location: "Madrid, España",
     image: "/images/testimonial-ana.jpg",
     rating: 5,
-    text: "Meu filho tinha muita dificuldade de concentração. Com apenas 3 semanas usando o método, a professora dele já notou a diferença na escola. Ele consegue terminar as atividades agora!",
-    result: "Melhora na concentração em 3 semanas"
+    text: "Mi hijo tenía mucha dificultad de concentración. Con apenas 3 semanas usando el método, su maestra ya notó la diferencia en la escuela. ¡Ahora logra terminar las actividades!",
+    result: "Mejoró la concentración en 3 semanas"
   },
   {
-    name: "Patrícia Mendes",
-    location: "Belo Horizonte, MG",
+    name: "Patricia Méndez",
+    location: "Buenos Aires, Argentina",
     image: "/images/testimonial-patricia.jpg",
     rating: 5,
-    text: "Eu me sentia culpada por não ter tempo de qualidade com minha filha. Com 15 minutos por dia, conseguimos ter um momento só nosso e ainda estou vendo ela se desenvolver. É incrível!",
-    result: "Vínculo mãe-filha fortalecido"
+    text: "Me sentía culpable por no tener tiempo de calidad con mi hija. Con 15 minutos al día, logramos tener un momento solo nuestro y además la veo desarrollarse. ¡Es increíble!",
+    result: "Vínculo madre-hija fortalecido"
   },
   {
-    name: "Fernanda Oliveira",
-    location: "Curitiba, PR",
+    name: "Fernanda Olivera",
+    location: "Bogotá, Colombia",
     image: "/images/testimonial-fernanda.jpg",
     rating: 5,
-    text: "Meu filho de 4 anos já está reconhecendo todas as letras e números. A alfabetização está sendo muito mais fácil do que foi com minha filha mais velha. Super recomendo!",
-    result: "Filho alfabetizado antes da escola"
+    text: "Mi hijo de 4 años ya está reconociendo todas las letras y los números. La alfabetización está siendo mucho más fácil de lo que fue con mi hija mayor. ¡Súper recomendado!",
+    result: "Hijo alfabetizado antes de la escuela"
   }
 ]
 
@@ -34,10 +34,10 @@ export function TestimonialsSection() {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-10 md:mb-14">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            O Que as Mães Estão Dizendo
+            Lo Que Dicen las Madres
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Resultados reais de famílias que transformaram o desenvolvimento dos seus filhos
+            Resultados reales de familias que transformaron el desarrollo de sus hijos
           </p>
         </div>
 
@@ -86,7 +86,7 @@ export function TestimonialsSection() {
               ))}
             </div>
             <span className="font-bold text-foreground">4.9/5</span>
-            <span className="text-muted-foreground">- Mais de 500 avaliações</span>
+            <span className="text-muted-foreground">- Más de 500 valoraciones</span>
           </div>
         </div>
       </div>

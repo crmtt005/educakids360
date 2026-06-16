@@ -7,8 +7,8 @@ import './globals.css'
 const _nunito = Nunito({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Educakids360 | Desenvolva o Potencial Cognitivo do Seu Filho',
-  description: 'Método Desenvolvimento 360° com +200 atividades para desenvolver foco, concentração e preparação escolar do seu filho em apenas 15 minutos por dia. Acesso imediato.',
+  title: 'Educakids360 | Desarrolla el Potencial Cognitivo de Tu Hijo',
+  description: 'Método Desarrollo 360° con +200 actividades para desarrollar el enfoque, la concentración y la preparación escolar de tu hijo en solo 15 minutos al día. Acceso inmediato.',
   generator: 'v0.app',
   icons: {
     icon: '/favicon.png',
@@ -24,7 +24,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR">
+    <html lang="es">
       <body className="font-sans antialiased">
         {children}
         <Analytics />

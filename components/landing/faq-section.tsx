@@ -5,32 +5,32 @@ import { ChevronDown } from "lucide-react"
 
 const faqs = [
   {
-    question: "E se meu filho não gostar das atividades?",
-    answer: "As atividades foram desenvolvidas para serem divertidas e engajantes. Mas caso seu filho não se adapte, você tem 7 dias de garantia para pedir reembolso total."
+    question: "¿Y si a mi hijo no le gustan las actividades?",
+    answer: "Las actividades fueron desarrolladas para ser divertidas y atractivas. Pero si tu hijo no se adapta, tienes 7 días de garantía para pedir el reembolso total."
   },
   {
-    question: "E se eu não tiver tempo?",
-    answer: "O método foi criado pensando em mães ocupadas. São apenas 15 minutos por dia, que podem ser aplicados em qualquer momento — de manhã, à tarde ou antes de dormir."
+    question: "¿Y si no tengo tiempo?",
+    answer: "El método fue creado pensando en madres ocupadas. Son solo 15 minutos al día, que se pueden aplicar en cualquier momento: por la mañana, por la tarde o antes de dormir."
   },
   {
-    question: "E se meu filho já tiver alguma dificuldade?",
-    answer: "O método ajuda especialmente crianças com dificuldades de concentração ou atraso no desenvolvimento. As atividades são progressivas e respeitam o ritmo de cada criança."
+    question: "¿Y si mi hijo ya tiene alguna dificultad?",
+    answer: "El método ayuda especialmente a los niños con dificultades de concentración o retraso en el desarrollo. Las actividades son progresivas y respetan el ritmo de cada niño."
   },
   {
-    question: "Funciona para qual idade?",
-    answer: "O material foi desenvolvido para crianças de 2 a 10 anos, com atividades específicas para cada faixa etária: 2-4 anos, 4-6 anos e 6-10 anos."
+    question: "¿Para qué edad funciona?",
+    answer: "El material fue desarrollado para niños de 2 a 10 años, con actividades específicas para cada franja de edad: 2-4 años, 4-6 años y 6-10 años."
   },
   {
-    question: "Preciso ter experiência em educação?",
-    answer: "Não! O material é autoexplicativo e vem com instruções claras. Qualquer mãe consegue aplicar, mesmo sem experiência em educação."
+    question: "¿Necesito tener experiencia en educación?",
+    answer: "¡No! El material es autoexplicativo y viene con instrucciones claras. Cualquier madre puede aplicarlo, incluso sin experiencia en educación."
   },
   {
-    question: "Como recebo o material?",
-    answer: "Imediatamente após a confirmação do pagamento, você recebe o acesso por e-mail. Todo o material é digital (PDF) e pode ser acessado pelo celular, tablet ou computador."
+    question: "¿Cómo recibo el material?",
+    answer: "Inmediatamente después de la confirmación del pago, recibes el acceso por correo electrónico. Todo el material es digital (PDF) y se puede acceder desde el celular, la tablet o la computadora."
   },
   {
-    question: "Posso imprimir as atividades?",
-    answer: "Sim! Você pode imprimir quantas vezes quiser. Muitas mães preferem imprimir para que a criança possa escrever e desenhar no papel."
+    question: "¿Puedo imprimir las actividades?",
+    answer: "¡Sí! Puedes imprimirlas las veces que quieras. Muchas madres prefieren imprimirlas para que el niño pueda escribir y dibujar en el papel."
   }
 ]
 
@@ -42,10 +42,10 @@ export function FaqSection() {
       <div className="container mx-auto px-4 max-w-3xl">
         <div className="text-center mb-10 md:mb-14">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            Perguntas Frequentes
+            Preguntas Frecuentes
           </h2>
           <p className="text-muted-foreground text-lg">
-            Tire suas dúvidas sobre o Educakids360
+            Resuelve tus dudas sobre Educakids360
           </p>
         </div>
 

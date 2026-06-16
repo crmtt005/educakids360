@@ -3,46 +3,46 @@ import { Brain, MessageSquare, GraduationCap, Heart, CheckCircle } from "lucide-
 const benefitCategories = [
   {
     icon: Brain,
-    title: "Desenvolvimento Cognitivo",
+    title: "Desarrollo Cognitivo",
     color: "bg-blue-500/10 text-blue-600",
     benefits: [
-      "Melhora significativa na capacidade de concentração",
-      "Desenvolvimento do raciocínio lógico",
-      "Fortalecimento da memória de curto e longo prazo",
-      "Aumento da capacidade de resolver problemas"
+      "Mejora significativa en la capacidad de concentración",
+      "Desarrollo del razonamiento lógico",
+      "Fortalecimiento de la memoria a corto y largo plazo",
+      "Aumento de la capacidad de resolver problemas"
     ]
   },
   {
     icon: MessageSquare,
-    title: "Comunicação e Linguagem",
+    title: "Comunicación y Lenguaje",
     color: "bg-purple-500/10 text-purple-600",
     benefits: [
-      "Ampliação do vocabulário de forma natural",
-      "Melhora na articulação das palavras",
-      "Desenvolvimento da escuta ativa",
-      "Facilidade para se expressar verbalmente"
+      "Ampliación del vocabulario de forma natural",
+      "Mejora en la articulación de las palabras",
+      "Desarrollo de la escucha activa",
+      "Facilidad para expresarse verbalmente"
     ]
   },
   {
     icon: GraduationCap,
-    title: "Preparação Escolar",
+    title: "Preparación Escolar",
     color: "bg-green-500/10 text-green-600",
     benefits: [
-      "Base sólida para alfabetização",
-      "Familiarização com números e quantidades",
-      "Coordenação motora fina desenvolvida",
-      "Prontidão para o ambiente escolar"
+      "Base sólida para la alfabetización",
+      "Familiarización con los números y las cantidades",
+      "Coordinación motora fina desarrollada",
+      "Preparación para el entorno escolar"
     ]
   },
   {
     icon: Heart,
-    title: "Autoconfiança",
+    title: "Autoconfianza",
     color: "bg-rose-500/10 text-rose-600",
     benefits: [
-      "Aumento da autoestima da criança",
-      "Sensação de conquista e capacidade",
-      "Redução da frustração com desafios",
-      "Desenvolvimento da autonomia"
+      "Aumento de la autoestima del niño",
+      "Sensación de logro y capacidad",
+      "Reducción de la frustración ante los desafíos",
+      "Desarrollo de la autonomía"
     ]
   }
 ]
@@ -53,10 +53,10 @@ export function BenefitsSection() {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-10 md:mb-14">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            O Que Seu Filho Vai Conquistar
+            Lo Que Tu Hijo Va a Conquistar
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Benefícios reais e específicos em cada área do desenvolvimento
+            Beneficios reales y específicos en cada área del desarrollo
           </p>
         </div>
 

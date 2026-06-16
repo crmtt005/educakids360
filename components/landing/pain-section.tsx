@@ -3,33 +3,33 @@ import { AlertCircle, Smartphone, Brain, Clock, Users, BookX } from "lucide-reac
 const painPoints = [
   {
     icon: AlertCircle,
-    title: "Medo do atraso escolar",
-    description: "Você percebe que seu filho tem dificuldade para acompanhar outras crianças da mesma idade?"
+    title: "Miedo al retraso escolar",
+    description: "¿Notas que tu hijo tiene dificultad para seguir el ritmo de otros niños de su misma edad?"
   },
   {
     icon: Smartphone,
-    title: "Excesso de telas",
-    description: "Seu filho passa horas no celular ou tablet, mas na hora de estudar não consegue se concentrar?"
+    title: "Exceso de pantallas",
+    description: "¿Tu hijo pasa horas en el celular o la tablet, pero a la hora de estudiar no logra concentrarse?"
   },
   {
     icon: Brain,
-    title: "Falta de concentração",
-    description: "Ele começa uma atividade e não consegue terminar? Se distrai com qualquer coisa?"
+    title: "Falta de concentración",
+    description: "¿Empieza una actividad y no logra terminarla? ¿Se distrae con cualquier cosa?"
   },
   {
     icon: Clock,
-    title: "Falta de tempo",
-    description: "Você se sente culpada por não ter tempo suficiente para estimular seu filho como gostaria?"
+    title: "Falta de tiempo",
+    description: "¿Te sientes culpable por no tener suficiente tiempo para estimular a tu hijo como te gustaría?"
   },
   {
     icon: Users,
-    title: "Comparação constante",
-    description: "Você vê outras crianças mais desenvolvidas e fica preocupada com o futuro do seu filho?"
+    title: "Comparación constante",
+    description: "¿Ves a otros niños más desarrollados y te preocupa el futuro de tu hijo?"
   },
   {
     icon: BookX,
-    title: "Dificuldade com a escrita",
-    description: "Seu filho tem letra ilegível, segura o lápis de forma errada ou evita atividades de escrita?"
+    title: "Dificultad con la escritura",
+    description: "¿Tu hijo tiene letra ilegible, sostiene el lápiz de forma incorrecta o evita las actividades de escritura?"
   }
 ]
 
@@ -39,10 +39,10 @@ export function PainSection() {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-10 md:mb-14">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            Você se identifica com alguma dessas situações?
+            ¿Te identificas con alguna de estas situaciones?
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Se você respondeu sim para alguma dessas perguntas, saiba que você não está sozinha...
+            Si respondiste que sí a alguna de estas preguntas, debes saber que no estás sola...
           </p>
         </div>
 

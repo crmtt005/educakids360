@@ -5,32 +5,32 @@ import { FileText, Users, RefreshCw, Headphones, CheckCircle } from "lucide-reac
 const inclusions = [
   {
     icon: FileText,
-    title: "+200 Atividades Estruturadas",
-    description: "Atividades práticas e divertidas para todas as idades de 2 a 10 anos",
+    title: "+200 Actividades Estructuradas",
+    description: "Actividades prácticas y divertidas para todas las edades, de 2 a 10 años",
     value: "R$ 197"
   },
   {
     icon: Users,
-    title: "Material para Todas as Idades",
-    description: "Conteúdo organizado por faixa etária: 2-4, 4-6 e 6-10 anos",
+    title: "Material para Todas las Edades",
+    description: "Contenido organizado por franja de edad: 2-4, 4-6 y 6-10 años",
     value: "R$ 97"
   },
   {
     icon: FileText,
     title: "Formato Digital (PDF)",
-    description: "Acesso imediato pelo celular, tablet ou computador. Imprima quantas vezes quiser",
+    description: "Acceso inmediato desde el celular, la tablet o la computadora. Imprime las veces que quieras",
     value: "R$ 47"
   },
   {
     icon: RefreshCw,
-    title: "Atualizações Vitalícias",
-    description: "Receba novas atividades e melhorias sem pagar nada a mais",
+    title: "Actualizaciones de por Vida",
+    description: "Recibe nuevas actividades y mejoras sin pagar nada más",
     value: "R$ 97"
   },
   {
     icon: Headphones,
-    title: "Suporte por E-mail",
-    description: "Tire suas dúvidas com nossa equipe especializada",
+    title: "Soporte por Correo Electrónico",
+    description: "Resuelve tus dudas con nuestro equipo especializado",
     value: "R$ 47"
   }
 ]
@@ -49,10 +49,10 @@ export function WhatsIncludedSection() {
       <div className="container mx-auto px-4 max-w-6xl">
         <div className="text-center mb-10 md:mb-14">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            O Que Você Vai Receber
+            Lo Que Vas a Recibir
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Um pacote completo para transformar o desenvolvimento do seu filho
+            Un paquete completo para transformar el desarrollo de tu hijo
           </p>
         </div>
 
@@ -77,7 +77,7 @@ export function WhatsIncludedSection() {
         </div>
 
         <div className="text-center bg-primary/5 rounded-2xl p-6 md:p-8 max-w-3xl mx-auto">
-          <p className="text-muted-foreground mb-2">Valor total se vendido separadamente:</p>
+          <p className="text-muted-foreground mb-2">Valor total si se vendiera por separado:</p>
           <p className="text-3xl font-bold text-foreground line-through mb-4">R$ {totalValue},00</p>
           <button
             onClick={scrollToOffer}

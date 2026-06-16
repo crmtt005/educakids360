@@ -3,38 +3,38 @@ import { Calendar, BookHeart, BarChart3, Users, RefreshCw, Gift } from "lucide-r
 const bonuses = [
   {
     icon: Calendar,
-    title: "Planner de Rotina Infantil",
-    description: "Organize o dia a dia do seu filho com um planner prático e ilustrado",
+    title: "Planificador de Rutina Infantil",
+    description: "Organiza el día a día de tu hijo con un planificador práctico e ilustrado",
     value: "R$ 47"
   },
   {
     icon: BookHeart,
-    title: "Guia de Disciplina Positiva",
-    description: "Aprenda a educar sem gritos, com técnicas baseadas em respeito mútuo",
+    title: "Guía de Disciplina Positiva",
+    description: "Aprende a educar sin gritos, con técnicas basadas en el respeto mutuo",
     value: "R$ 67"
   },
   {
     icon: BarChart3,
-    title: "Cronograma de Estímulos por Idade",
-    description: "Saiba exatamente o que estimular em cada fase do desenvolvimento",
+    title: "Cronograma de Estímulos por Edad",
+    description: "Sabe exactamente qué estimular en cada fase del desarrollo",
     value: "R$ 37"
   },
   {
     icon: Users,
-    title: "Acesso ao Grupo Exclusivo",
-    description: "Comunidade de mães para trocar experiências e tirar dúvidas",
+    title: "Acceso al Grupo Exclusivo",
+    description: "Comunidad de madres para intercambiar experiencias y resolver dudas",
     value: "R$ 97"
   },
   {
     icon: RefreshCw,
-    title: "Atualizações Futuras Gratuitas",
-    description: "Receba todos os novos materiais sem pagar nada a mais",
+    title: "Actualizaciones Futuras Gratuitas",
+    description: "Recibe todos los nuevos materiales sin pagar nada más",
     value: "R$ 147"
   },
   {
     icon: Gift,
-    title: "E-book Receitas Saudáveis",
-    description: "Receitas práticas e nutritivas para melhorar o foco e energia das crianças",
+    title: "E-book de Recetas Saludables",
+    description: "Recetas prácticas y nutritivas para mejorar el enfoque y la energía de los niños",
     value: "R$ 27"
   }
 ]
@@ -50,13 +50,13 @@ export function BonusSection() {
         <div className="text-center mb-10 md:mb-14">
           <div className="inline-flex items-center gap-2 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-semibold mb-4">
             <Gift className="w-4 h-4" />
-            <span>BÔNUS EXCLUSIVOS</span>
+            <span>BONOS EXCLUSIVOS</span>
           </div>
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4 text-balance">
-            E Ainda Leva de Presente
+            Y Además Te Llevas de Regalo
           </h2>
           <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
-            Bônus especiais disponíveis apenas no pacote completo
+            Bonos especiales disponibles solo en el paquete completo
           </p>
         </div>
 
@@ -80,7 +80,7 @@ export function BonusSection() {
 
         <div className="text-center">
           <p className="text-lg text-foreground font-medium">
-            Total em bônus:{" "}
+            Total en bonos:{" "}
             <span className="text-accent font-bold">R$ {totalBonusValue},00</span>
           </p>
         </div>

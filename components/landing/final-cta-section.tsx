@@ -15,23 +15,23 @@ export function FinalCtaSection() {
         </div>
 
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-primary-foreground mb-4 text-balance">
-          Não Deixe Para Amanhã o Futuro do Seu Filho
+          No Dejes Para Mañana el Futuro de Tu Hijo
         </h2>
 
         <p className="text-primary-foreground/90 text-lg mb-8 max-w-2xl mx-auto">
-          Cada dia que passa é uma oportunidade perdida de desenvolvimento. A janela de ouro da primeira infância não espera. Comece hoje e veja a transformação acontecer.
+          Cada día que pasa es una oportunidad perdida de desarrollo. La ventana de oro de la primera infancia no espera. Empieza hoy y observa cómo sucede la transformación.
         </p>
 
         <button
           onClick={scrollToOffer}
           className="animate-pulse-cta inline-flex items-center gap-2 bg-accent hover:bg-accent/90 text-accent-foreground font-bold py-4 px-8 rounded-xl text-lg shadow-lg transition-all"
         >
-          QUERO TRANSFORMAR MEU FILHO AGORA
+          QUIERO TRANSFORMAR A MI HIJO AHORA
           <ArrowRight className="w-5 h-5" />
         </button>
 
         <p className="mt-6 text-primary-foreground/70 text-sm">
-          Acesso imediato | Garantia de 7 dias | Pagamento seguro
+          Acceso inmediato | Garantía de 7 días | Pago seguro
         </p>
       </div>
     </section>

@@ -4,19 +4,19 @@ import { Award, BookOpen, Heart, Users } from "lucide-react"
 const credentials = [
   {
     icon: Award,
-    text: "Especialista em Desenvolvimento Infantil"
+    text: "Especialista en Desarrollo Infantil"
   },
   {
     icon: BookOpen,
-    text: "10+ anos de experiência em educação"
+    text: "+10 años de experiencia en educación"
   },
   {
     icon: Users,
-    text: "+2.000 famílias impactadas"
+    text: "+2.000 familias impactadas"
   },
   {
     icon: Heart,
-    text: "Mãe de 2 filhos"
+    text: "Madre de 2 hijos"
   }
 ]
 
@@ -28,7 +28,7 @@ export function AuthoritySection() {
           <div className="flex-shrink-0">
             <Image
               src="/images/author.jpg"
-              alt="Dra. Mariana Santos - Criadora do Método Desenvolvimento 360°"
+              alt="Dra. Mariana Santos - Creadora del Método Desarrollo 360°"
               width={300}
               height={300}
               className="rounded-2xl shadow-xl w-64 h-64 md:w-72 md:h-72 object-cover mx-auto"
@@ -37,7 +37,7 @@ export function AuthoritySection() {
 
           <div className="flex-1 text-center lg:text-left">
             <span className="inline-block bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-semibold mb-4">
-              QUEM CRIOU O MÉTODO
+              QUIÉN CREÓ EL MÉTODO
             </span>
             
             <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground mb-4">
@@ -45,11 +45,11 @@ export function AuthoritySection() {
             </h2>
             
             <p className="text-muted-foreground text-lg mb-6">
-              Psicopedagoga e especialista em desenvolvimento cognitivo infantil, dediquei mais de uma década a estudar como as crianças aprendem e se desenvolvem.
+              Psicopedagoga y especialista en desarrollo cognitivo infantil, dediqué más de una década a estudiar cómo aprenden y se desarrollan los niños.
             </p>
             
             <p className="text-muted-foreground mb-6">
-              Como mãe de dois filhos, entendo na pele os desafios que você enfrenta. Foi essa experiência pessoal, combinada com meu conhecimento profissional, que me levou a criar o Método Desenvolvimento 360°, um sistema prático que qualquer mãe pode aplicar em casa.
+              Como madre de dos hijos, entiendo en carne propia los desafíos que enfrentas. Fue esa experiencia personal, combinada con mi conocimiento profesional, la que me llevó a crear el Método Desarrollo 360°, un sistema práctico que cualquier madre puede aplicar en casa.
             </p>
 
             <div className="grid grid-cols-2 gap-4">
